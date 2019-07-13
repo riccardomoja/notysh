@@ -1,0 +1,42 @@
+{
+  "name": "typescript-app-starter",
+  "alias": "starter",
+  "version": "0.0.1",
+  "description": "Starter kit to create nodejs application you can execute from shell scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "lint": "tslint --project tsconfig.json src/**/*.ts ",
+    "build": "webpack --config  webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "tslint": "latest",
+    "ts-node": "^7.0.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4",
+    "extract-text-webpack-plugin": "next",
+    "autoprefixer": "latest",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.6.0",
+    "ifdef-loader": "latest",
+    "dts-bundle": "latest",
+    "ts-loader": "^5.3.1",
+    "istanbul": "latest",
+    "jasmine-core": "^2.5.2",
+    "@types/jasmine": "latest",
+    "karma": "latest",
+    "karma-typescript": "latest",
+    "karma-coverage": "latest",
+    "karma-jasmine": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-chrome-launcher": "latest",
+    "karma-spec-reporter": "latest",
+    "es6-promise": "latest"
+  },
+  "author": "Riccardo Moja",
+  "license": "MIT"
+}
