@@ -14,15 +14,19 @@ Please notice that it's in early state.
 - you can use it in your bash scripts
 
 # Whren you should not use notysh
-If you are highly skilled with bash scripting, 
-and you have to perform simple operations, copying / moving / creating files, notysh is overkill.
+- if you are highly skilled with bash scripting, 
+- you have to perform simple operations, copying / moving / creating files, notysh is overkill.
+- if you want to go real fast sacrificing code manteinance
 
 
-# When you should use notysh
+# When you should try to use notysh
+- When you need to mantain your code, you prefer to use SOLID principles, test your scripts with code coverage
+- If you are a node developer and you have to write a bash script or manipulate the output of a bash script
+- You want 
 - If you are writing complex bash scripts, and you have to manipulate files content (parsing, generating files from a template, replacing strings, ...)
 - If you have to easly and quickly read JSON files (such as a configuration, the output of other scripts, ...)
-- You need the power of a powerful language in your bash scripts
-- If you need to perform complex operations
+- You need the power of a higher level language in your bash scripts
+- In general, if you have to write more than a simple script
 
 # How to use
 You can us notysh as standalone script or use it in your projects.
