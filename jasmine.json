@@ -1,4 +1,8 @@
 {
+  "spec_dir": "src",
+  "spec_files": [
+    "**/*.[sS]pec.ts"
+  ],
   "reporters": [
     {
       "name": "jasmine-spec-reporter#SpecReporter",
